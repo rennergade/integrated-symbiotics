@@ -1,0 +1,38 @@
+{% extends "base1.html" %}
+{% block title %}Classes{% endblock %}
+{% block content %}
+<br><br><br><br>
+
+
+<p>
+
+<b>Intro to Aquaponics:</b>
+<br><br>
+
+Integrated Symbiotics will be hosting an Intro to Aquaponics Class in the Weaver’s Way Chestnut Hill Backyard on July 11th and August 29th. These classes will run from 9 AM to approximately 4 PM. Each class will have a morning educational session, a lunch break, and an afternoon hands on learning session. Class size will accommodate up to 14 persons.
+<br><br>
+
+
+
+<b>Location:</b> Weaver’s Way Chestnut Hill<br>
+<b>Dates: </b>July 11th and August 29th <br>
+<b>Time:</b> 9 AM - 4 PM<br>
+<b>Fee:</b> $120<br>
+<b>Registration:</b> Register below OR<br>
+Contact Nicholas Renner at nrenner@integratedsymbiotics.com or (267)-446-5776<br>
+
+<br>
+
+<br>Class information including curriculum can be viewed here <a href="/static/ClassOverview.pdf">here</a>.
+
+<br>
+<br>
+
+If you have a Google account, you can sign up using the form below. Just login with your google account and answer the required fields.
+<br><br>
+	<iframe src="https://docs.google.com/forms/d/1kYf-w_hqiflZ-M8k7dBqGiW1NDM7Yvob48iuf8RSVNU/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+
+
+</p>
+{% endblock %}

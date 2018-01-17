@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% block title %}Learn{% endblock %}
+{% block content %}
+<style>
+    header{
+        background-image: url(/static/sustainability.jpg);
+        color:#222;
+
+    }
+
+  header img{
+    max-height: 200px;
+    }
+
+    header .header-content .header-content-inner{
+        background-color: rgba(100,100,100,0); 
+    }
+
+    header .header-content .header-content-inner p{
+        color: #222;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+</style>
+    <header class="remove-bg">
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Learning Library</h1>
+                <hr class="dark">
+                <p class="text-dark">Welcome to our learning library. Check out some reference articles for topics that are important to us here at Integrated Symbiotics.</p>
+            </div>
+        </div>
+    </header>
+<p align="center">
+
+<br><br>
+<a href="#sustainability" class="page-scroll">Sustainability</a> || <a href="#aquaponics" class="page-scroll">Aquaponics</a> || <a href="#iot" class="page-scroll">Internet of Things </a>
+    <!-- add blocks?-->
+
+<section class="" id="sustainability">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Sustainability</h2>
+                    <hr class="light">
+In ecology, sustainability is how biological systems remain diverse and productive. Long-lived and healthy wetlands and forests are examples of sustainable biological systems. In more general terms, sustainability is the endurance of systems and processes. The organizing principle for sustainability is sustainable development, which includes the four interconnected domains: ecology, economics, politics and culture. Sustainability science is the study of sustainable development and environmental science.
+<br><br>
+Healthy ecosystems and environments are necessary to the survival of humans and other organisms. Ways of reducing negative human impact are environmentally-friendly chemical engineering, environmental resources management and environmental protection. Information is gained from green chemistry, earth science, environmental science and conservation biology. Ecological economics studies the fields of academic research that aim to address human economies and natural ecosystems.
+<br><br>
+
+Moving towards sustainability is also a social challenge that entails international and national law, urban planning and transport, local and individual lifestyles and ethical consumerism. Ways of living more sustainably can take many forms from reorganising living conditions (e.g., ecovillages, eco-municipalities and sustainable cities), reappraising economic sectors (permaculture, green building, sustainable agriculture), or work practices (sustainable architecture), using science to develop new technologies (green technologies, renewable energy and sustainable fission and fusion power), to adjustments in individual lifestyles that conserve natural resources.
+<br><br>
+Despite the increased popularity of the use of the term "sustainability", the possibility that human societies will achieve environmental sustainability has been, and continues to be, questioned—in light of environmental degradation, climate change, overconsumption, population growth and societies' pursuit of indefinite economic growth in a closed system.
+                    <p class="text-faded"> </p>
+
+                </div>
+            </div>
+        </div>
+</section>
+<section class="" id="aquaponics">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Aquaponics</h2>
+                    <hr class="light">
+Aquaponics /ˈækwəˈpɒnɨks/, refers to any system that combines conventional aquaculture (raising aquatic animals such as snails, fish, crayfish or prawns in tanks) with hydroponics (cultivating plants in water) in a symbiotic environment. In normal aquaculture, excretions from the animals being raised can accumulate in the water, increasing toxicity. In an aquaponic system, water from an aquaculture system is fed to a hydroponic system where the by-products are broken down by nitrification bacteria into nitrates and nitrites, which are utilized by the plants as nutrients, and the water is then recirculated back to the aquaculture system.
+<br><br>
+As existing hydroponic and aquaculture farming techniques form the basis for all aquaponics systems, the size, complexity, and types of foods grown in an aquaponics system can vary as much as any system found in either distinct farming discipline.
+<br><br>
+                </div>
+            </div>
+        </div>
+</section>
+
+<section class="" id="iot">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Internet of Things</h2>
+                    <hr class="light">
+The Internet of Things (IoT) is the network of physical objects—devices, vehicles, buildings and other items which are embedded with electronics, software, sensors, and network connectivity, which enables these objects to collect and exchange data. The Internet of Things allows objects to be sensed and controlled remotely across existing network infrastructure, creating opportunities for more direct integration of the physical world into computer-based systems, and resulting in improved efficiency, accuracy and economic benefit; when IoT is augmented with sensors and actuators, the technology becomes an instance of the more general class of cyber-physical systems, which also encompasses technologies such as smart grids, smart homes, intelligent transportation and smart cities. Each thing is uniquely identifiable through its embedded computing system but is able to interoperate within the existing Internet infrastructure. Experts estimate that the IoT will consist of almost 50 billion objects by 2020.
+<br><br>
+Typically, IoT is expected to offer advanced connectivity of devices, systems, and services that goes beyond machine-to-machine (M2M) communications and covers a variety of protocols, domains, and applications. The interconnection of these embedded devices (including smart objects), is expected to usher in automation in nearly all fields, while also enabling advanced applications like a Smart Grid, and expanding to the areas such as smart cities.
+<br><br>
+"Things," in the IoT sense, can refer to a wide variety of devices such as heart monitoring implants, biochip transponders on farm animals, electric clams in coastal waters, automobiles with built-in sensors, DNA analysis devices for environmental/food/pathogen monitoring or field operation devices that assist firefighters in search and rescue operations. Legal scholars suggest to look at "Things" as an "inextricable mixture of hardware, software, data and service". These devices collect useful data with the help of various existing technologies and then autonomously flow the data between other devices. Current market examples include smart thermostat systems and washer/dryers that use Wi-Fi for remote monitoring.
+<br><br>
+As well as the expansion of Internet-connected automation into a plethora of new application areas, IoT is also expected to generate large amounts of data from diverse locations, with the consequent necessity for quick aggregation of the data, and an increase in the need to index, store, and process such data more effectively. IoT is one of the platforms of today's Smart City, and Smart Energy Management Systems.
+                    <p class="text-faded"> </p>
+<br><br>
+                    <a href="/learn" class="btn btn-success btn-xl">Learn More</a>
+                </div>
+            </div>
+        </div>
+</section>
+
+</p>
+{% endblock %}

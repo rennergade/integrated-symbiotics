@@ -1,0 +1,60 @@
+{% extends "base1.html" %}
+{% block title %}Recent Projects{% endblock %}
+{% block content %}
+
+<style>
+    header{
+        background-image: url(/static/phillyearth/image3.jpg);
+        color:#222;
+    }
+
+    header .header-content .header-content-inner{
+        background-color: rgba(201,201, 201, 0.5); /*rgba(41, 117, 201, 0.7);*/ 
+		}
+
+    header .header-content .header-content-inner p{
+        color: #222;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+
+</style>
+    <header class="remove-bg">
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Recent Projects</h1>
+                <img width="90px" height="90px" src="/static/img/logosmaller.png">
+                <!--                <hr>-->
+                <p >Integrated Symbiotics is engaging in a variety of consulting and construction projects featuring Sustainability and Aquaponics as their core competencies.</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Learn More</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+          <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Recent Projects</h2>
+                    <hr class="primary">
+                    <p>Integrated Symbiotics is engaging in a variety of consulting and construction projects featuring Sustainability and Aquaponics as their core competencies.</p>
+                </div>
+		</div>
+		<div class="row">
+                <div class="col-lg-4 col-sm-4 text-center">
+                    <a href="/angolaslide"> <img width="90px" height="90px" src="/static/fica.jpg"></a>
+                    <p>Capoeira Angola</p>
+                </div>
+                <div class="col-lg-4 col-sm-4 text-center">
+                    <a href="/phillyearthslide"><img width="90px" height="90px" src="/static/phillyearth.jpg"></a>
+                    <p>Philly Earth</p>
+                </div>
+                <div class="col-lg-4 col-sm-4 text-center">
+                    <a href="/weaverswayslide"><img width="90px" height="90px" src="/static/weavers-way-coop.png"></a>
+                    <p>Weaver's Way Co-op</p>
+                </div>
+ </div>
+        </div>
+    </section>
+
+    {% endblock %}

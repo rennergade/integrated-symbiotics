@@ -1,0 +1,366 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #060;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+.rotate{
+	-ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+}
+
+.carousel-inner img{
+	height: auto;
+	max-height: 500px;
+	width:auto;
+	align-self: center;
+}
+.carousel{
+	width: inherit;
+}
+
+.block{
+	display: block;
+	overflow: scroll;
+	max-height: 100%;
+}
+.dropdown-menu{
+	z-index: 2;
+	
+}
+
+/*bios edits start*/
+#bios-blocks{
+	display: inline-block;
+	max-width: 50%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: 70%;
+	margin: 5px;
+	border: 2px solid grey;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,.1);
+}
+#inside-bios-blocks{
+	display: inline-block;
+}
+/*
+#inside-bios-blocks #job-title{
+	margin-top: 20px;
+}
+*/
+#bios-blocks img{
+	width: 128px;
+	height: 128px;
+}
+/* fix job-titles being cut off and having huge spacing*/
+#bios-blocks > img{
+	margin: 4px;
+	
+}
+/*bios stuff end*/
+/*
+ * Base structure
+ */
+html,
+body {
+  height: 100%;
+  background-color: #eee;/*page background color*/
+}
+body {
+  color: #000;
+  text-align: center;
+  text-shadow: none;
+}
+
+/*putting a small space between browser end and text*/
+.bodycontent{
+	position: fixed;
+		top:240px;
+		bottom: 20px;
+		max-width: 80%;
+		left: 10%;
+	overflow: scroll;
+	}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+
+.masthead-brand {
+  margin-top: -80px;/*-80px;*/
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+.masthead-brand img {
+  /*width:360px;
+  height:216px;*/
+	width: 360px;
+	height: 216px;
+
+}
+	#big-logo{
+		display: inline-block;
+		visibility: visible;
+	}
+	#small-logo{
+		display: none;
+	}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 10px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+	margin: -5px 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0,0,0,.5);
+  color: #060; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #000;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+position: fixed;
+	bottom:-40px;
+	left: 35%
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+	#inside-bios-blocks{
+	display: inline-block;
+	width: 45%;	
+	
+}
+	#job-title{
+		margin-top: 10px;
+	}
+	#bios-blocks{
+		display: inline-block;
+		width: 45%;
+	}
+	
+	  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+		z-index: 5;
+  }
+  .mastfoot {
+		position: fixed;
+		bottom:-40px;
+		left: 35%
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+	
+	.masthead-brand {
+  margin-top: -20px;/*-80px;*/
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+	#big-logo{
+		display: none;
+	}
+	#small-logo{
+		display: inline-block;
+	}
+
+.masthead-brand img {
+  /*width:360px;
+  height:216px;*/
+	width: 100px;
+	height: 100px;
+}
+	.bodycontent{
+		position: fixed;
+		z-index: 1;
+		top:120px;
+		bottom: 20px;
+		max-width: 80%;
+		left: 10%;
+	}
+}
+
+@media (min-width: 980px) {/*992px*/
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+	.masthead-brand {
+  margin-top: -50px;/*-80px;*/
+  margin-bottom: 10px;
+  margin-left: -170px;
+}
+
+.masthead-brand img {
+  /*width:360px;
+  height:216px;*/
+	width: 270px;
+	height: 162px;
+}
+		#big-logo{
+		display: inline-block;
+	}
+	#small-logo{
+		display: none;
+	}
+	.bodycontent{
+		position: fixed;
+		top:120px;
+		bottom: 20px;
+		max-width:100%;
+		
+		left: 0%;
+	}
+}
+@media (min-width: 1250px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+	.masthead-brand {
+  margin-top: -80px;
+  margin-bottom: 10px;
+  margin-left: -300px;
+}
+
+.masthead-brand img {
+	width: 360px;
+	height: 216px;
+}
+		#big-logo{
+		display: inline-block;
+	}
+	#small-logo{
+		display: none;
+	}
+	
+	.bodycontent{
+		position: fixed;
+		top:120px;
+		bottom: 20px;
+		max-width:100%;
+		width: 100%;
+	}
+}
+@media (max-width: 768px) {
+	#bios-blocks{
+		display: block;
+		max-width: 90%;
+		height: 40%;
+		margin-left: 5%
+	}
+}
+/*
+@media (min-height: 680px){
+	.carousel{
+		position: fixed;
+		height: 350px;
+	}
+}
+*/
+@media (max-height: 430px){
+	.bodycontent p{
+		max-height: 60%;
+	}
+}

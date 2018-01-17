@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Welcome{% endblock %}
+{% block content %}
+
+<p class="lead">
+<br>
+<br>
+
+  <a href="/hello">Hello World?</a>
+
+Welcome to Integrated Symbiotics. Our website will be periodically updated over the Summer of 2015. Check back frequently for updates. We're excited to bring sustainability and aquaponics to our surrounding communities.
+<br>
+<br>
+  <a href="/profile">Learn more about us!
+<br>
+<br>
+<img src="/static/HoopHouse Rooftop  - B.png" alt="Design" width="70%" height="auto" align="center">
+</a>
+<br>
+<br>
+<br>
+
+</p>
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends "base1.html" %}
+{% block title %}Eco-Table{% endblock %}
+{% block content %}
+
+<section class="bg-dark text-center">
+<br><br><br><br><h2>Introducing the EcoTable</h2><br><br>
+
+<img class="rounded" src="/static/homesystem.jpg" alt="Design" width="20%" align="center" >
+
+</section>
+{% endblock %}

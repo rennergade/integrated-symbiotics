@@ -1,0 +1,157 @@
+{% extends "base1.html" %}
+{% block title %}Philly Earth Off-Grid Aquaponics{% endblock %} 
+
+{% block content %}
+<style>
+    .item img{
+        height: 600px;
+    /*    width: auto;*/
+    }
+    .carousel .item{
+        top: 50px;
+        height: 600px;
+        background-color: #222;
+    }
+    .carousel{
+       background-color: #FFFFFF;
+    }
+		#contact {
+			color: #222;
+		}
+</style>
+<div id="carousel-example-generic" class="text-center carousel slide bg-dark" data-ride="carousel">
+    <!-- Indicators -->
+    <!--
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="5"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="6"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="7"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="8"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="9"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="10"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="11"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="12"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="13"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="14"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="15"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="16"></li>
+  </ol>
+-->
+
+   
+    <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+			<center><img src="/static/phillyearth/image1.jpg" alt="1"></center>
+      <div class="carousel-caption">
+<!--        Item A-->
+      </div>
+    </div>
+    <div class="item">
+			<center><img src="/static/phillyearth/image2.jpg" alt="2"></center>
+      <div class="carousel-caption">
+<!--        Item B-->
+      </div>
+    </div>
+		<div class="item">
+			<center><img src="/static/phillyearth/image3.jpg" alt="3"></center>
+      <div class="carousel-caption">
+<!--        Item B-->
+      </div>
+    </div>
+<div class="item">
+	<center><img src="/static/phillyearth/image4.jpg" alt="4"></center>
+      <div class="carousel-caption">
+<!--        Item A-->
+      </div>
+    </div>
+    <div class="item">
+			<center><img src="/static/phillyearth/image5.jpg" alt="5"></center>
+      <div class="carousel-caption">
+<!--        Item B-->
+      </div>
+    </div>
+  <div class="item">
+		<center><img src="/static/phillyearth/image6.jpg" alt="6"></center>
+      <div class="carousel-caption">
+<!--        Item B-->
+      </div>
+    </div>
+ <div class="item ">
+	 <center><img src="/static/phillyearth/image7.jpg" alt="7"></center>
+      <div class="carousel-caption">
+<!--        Item A-->
+      </div>
+    </div>
+    <div class="item">
+			<center><img src="/static/phillyearth/image8.jpg" alt="8"></center>
+      <div class="carousel-caption">
+<!--        Item B-->
+      </div>
+    </div>
+		<div class="item">
+			<center><img src="/static/phillyearth/image9.jpg" alt="9"></center>
+      <div class="carousel-caption">
+<!--        Item B-->
+      </div>
+    </div>
+    <div class="item">
+			<center><img src="/static/phillyearth/image10.jpg" alt="10"></center>
+      <div class="carousel-caption">
+<!--        Item A-->
+      </div>
+    </div>
+    <div class="item">
+			<center><img src="/static/phillyearth/image11.jpg" alt="11"></center>
+      <div class="carousel-caption">
+<!--        Item B-->
+      </div>
+    </div>
+	<div class="item">
+		<center><img src="/static/phillyearth/image12.jpg" alt="12"></center>
+      <div class="carousel-caption">
+<!--        Item B-->
+      </div>
+    </div>
+ <div class="item">
+	 <center><img src="/static/phillyearth/image13.jpg" alt="13"></center>
+      <div class="carousel-caption">
+<!--        Item B-->
+      </div>
+  </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<section class="bg-primary" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Philly Earth</h2>
+                <hr class="light">
+                <p class="text-faded">Integrated Symbiotics partnered with Philly Earth, a permaculture education center which is a sub-division of the Village of Arts and Humanities, to build an off-grid solar powered aquaponics system in their earthship style greenhouse. The aquaponics system is made from recycled blue 55 gallon barrels and donated materials. The main fish tank holds 300 gallons and houses goldfish and tilapia, there is also a 100 gallon sump tank. The system is powered by 4 - 230W solar panels which feed to a battery storage system. This system acts as an educational tool at PhillyEarth, teaching students that normally would not be exposed to such subjects about sustainability, agriculture, renewable energy, and biology.
+<br><br>
+Integrated Symbiotics and Philly Earth would like to thank the following people and organizations for making this project possible:<br>
+Lisa Gemmil<br>
+Foad Alvandi<br>
+Tecta Solar<br>
+Astrum Solar<br>
+HydroFarm<br></p>
+                <a href="http://phillyearth.org/" class="btn btn-default btn-xl">Check them out</a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

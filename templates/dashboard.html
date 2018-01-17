@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}Learn{% endblock %}
+{% block content %}
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+.plotly-edit{
+	width: 80%;
+	height: 30%;
+	margin-left: 10%;
+}
+</style>
+<p align="center">
+<!--
+Welcome to our dashboard. This is the info for {{Arduino.id}}. The temperateure is {{Arduino.currentTemp}} and the current pH is {{Arduino.pH}}.
+	<br>or
+<br><br>
+<table align="center" width="200px">
+Arduino table
+  <tr>
+		
+		<th>Arduino ID</th>
+    <td>{{Arduino.id}}</td>
+  </tr>
+  <tr>
+		<th>Current Temperature</th>
+    <td>{{Arduino.currentTemp}}</td>
+  </tr>
+  <tr>
+		<th>pH Levels</th>
+    <td>{{Arduino.pH}}</td>
+  </tr>
+</table>
+
+<br><br>-->
+<div class="plotly-edit" align="center">
+    <a href="https://plot.ly/~stevenhamel/47/" target="_blank" title="Dual point stream from pi" style="display: block; text-align: center;"><img src="https://plot.ly/~stevenhamel/47.png" alt="Dual point stream from pi" style="max-width: 100%;"  onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="stevenhamel:47"  src="https://plot.ly/embed.js" async></script>
+</div>
+<p id="graph"></p>
+</p>
+{% endblock %}

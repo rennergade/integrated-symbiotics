@@ -1,0 +1,136 @@
+{% extends "base.html" %} {% block title %}Company Profile{% endblock %} {% block content %}
+<style>
+	#contact {
+    color: #fff;
+    background-color: #222;
+	}
+</style>
+<header>
+	<div class="header-content">
+		<div class="header-content-inner">
+			<h1>Company profile</h1>
+			<img width="90px" height="90px" src="/static/img/logosmaller.png">
+			<!--                <hr>-->
+			<p>Integrated Symbiotics, LLC (IS) is a sustainable engineering company focused on agricultural technology, with a specialization in the fields of aquaponics and permaculture. IS aims to reduce the energy and water consumption required in traditional agriculture by mimicking natural behavior while utilizing new advances in automation and monitoring.</p>
+			<a href="#about" class="btn btn-primary btn-xl page-scroll">Learn More</a>
+		</div>
+	</div>
+</header>
+
+<section class="bg-primary" id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 text-center">
+				<h2 class="section-heading">History</h2>
+				<hr class="light">
+				<p class="text-faded">IS was founded in 2015 by <a href="/bios">Nicholas Renner</a> in Philadelphia, Pennsylvania. The company was inspired by their love of food, sustainability, and design, as well as their desire to innovate simple solutions to growing environmental problems.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="bg-dark">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 text-center">
+				<h1>Integrated Symbiotics aims to:</h1>
+				<hr class="dark">
+				<br>
+				<h2>Aquaponics:</h2>
+				<p class="text-faded">One of our primary goals is to become the leading purveyor of quality, science-based aquaponic systems in Philadelphia. We offer consulting, contracting, training and support services in order to cultivate success for our clients in aquaponic food production. Specifically, we aim to eliminate food deserts and achieve sustainable urban food production by educating youth and their families on sustainably grown produce, healthy food preparation, and the enhancement of Philadelphia-produced premium quality fish and organic aquatic organisms. This concept is known as sustainable food security, and we believe that our company can help to provide food security through aquaponics and controlled environment agriculture.
+					<br>In addition to consulting on and constructing private and public aquaponic projects, IS will be releasing its own models of residential aquaponic systems that can be integrated into any home for plug-and-play food production. We also will be releasing do-it-yourself kits and construction plans for the home hobbyist, and our store will sell aquaponic and hydroponic equipment directly to consumers.</p>
+				<br>
+				<hr>
+				<br>
+				<h2>Automation:</h2>
+				<p class="text-faded">We believe that using technological advancements to assist and observe nature gives agriculture the best chance to be sustainable and healthy while maintaining a high yield. Recent advancements in micro-technology has birthed the Internet of Things (IoT) movement, which can be seen everywhere from smart home climate control to remote security systems. This movement utilizes components such as the Arduino and Raspberry Pi to accumulate data, understand situations, and manipulate its environment. IS is committed to developing products that will introduce IoT to aquaponics and sustainability. These systems will help individuals grow and harvest food remotely, with minimal hands-on work, and we believe that their success will be integral to the growth of healthy food.</p>
+				<br>
+				<hr>
+				<br>
+				<h2>Sustainability:</h2>
+				<p class="text-faded">IS offers consulting and contracting services for other aspects of sustainability and permaculture. We have expertise in renewable energy, energy storage, rainwater management and collection, smart watering systems, and anaerobic digestion/biogas generation, among other areas. We are ready to provide case studies on all matters involving these areas and are able to construct many recommended systems, either by ourselves or by managing independent contractors.</p>
+				<br>
+				<hr>
+				<br>
+				<h2>Education:</h2>
+				<p class="text-faded">We train clients on sustainable food security, urban food business practices in and around Philadelphia and culinary processes that inspire a shift in healthy food consumption regardless of economic status. IS is committed to bringing educational resources in aquaponics and permaculture into the classroom. We believe that youth from K-12 are ready to explore areas of their own food production and that the experience can be life-hanging in terms of outlook on health and the environment.
+					<br>In addition, IS offers classes on aquaponics and sustainability throughout the year. Check our events page for availability.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="bg-primary" id="bios">
+	<div class="container">
+		
+
+	<div class="row">
+		<div class="bios text-center">
+			<!-- layout: 1-5-5-1 on lg, md, & sm and 1-10-1 on xs-->
+			<div class="bios thumbnail">
+				<img style="border-radius: 10px;" width="512px" height="512px" src="/static/img/leader-headshots/nick.jpg" alt="Nick Headshot">
+				<div class="caption">
+					<h2>Nicholas Renner - Director of Engineering and Business Development</h2>
+					<hr class="dark">
+					<p>Nicholas Renner is a co-founder and Director of Finance and Engineering for Integrated Symbiotics. He has spent his 20s gathering knowledge and experience in sustainability and food production. Prior to founding Integrated Symbiotics, he was the Director of Operations for Ft. Smith Petro Environmental, an oil recycling company in Arkansas. Nick has experience in business management as well as energy consulting, renewable energy, recycling, and food commerce. Nicholas graduated from Tufts University in 2010 with a degree in Chemical and Biological Engineering and has a passion for technology. Nick believes that the power of food should be transferred from large corporations to the consumer. He strongly feels that reducing steps in the supply chain would not only save energy resources, but also produce a smarter consumer who holds knowledge of what they are consuming.</p>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2 class="section-heading">Integrated Symbiotics cares about education, with the belief that a smarter generation of young people will commit to healthy and sustainable practices.</h2>
+				<hr class="dark">
+			</div>
+		</div>
+	</div>
+</section>
+<section id="partners">
+	<div class="row">
+		<div class="col-lg-12 text-center">
+			<h2>Our Partnerships</h2>
+			<hr class="dark">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-4 col-sm-4 text-center">
+			<a href="/angolaslide">
+				<img width="90px" height="90px" src="/static/fica.jpg">
+			</a>
+			<p>Capoeira Angola</p>
+		</div>
+		<div class="col-lg-4 col-sm-4 text-center">
+			<a href="/phillyearthslide">
+				<img width="90px" height="90px" src="/static/phillyearth.jpg">
+			</a>
+			<p>Philly Earth</p>
+		</div>
+		<div class="col-lg-4 col-sm-4 text-center">
+			<a href="/weaverswayslide">
+				<img width="90px" height="90px" src="/static/weavers-way-coop.png">
+			</a>
+			<p>Weaver's Way Co-op</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-4 col-sm-4 text-center">
+			
+		</div>
+		<div class="col-lg-4 col-sm-4 text-center">
+		<br>
+			<a href="http://www.sbnphiladelphia.org/">
+				<img width="90px" height="90px" src="/static/sbnseal.jpg">
+			</a>
+			<p>
+			Sustainable Business Network of Greater Philadelphia
+			</p>
+		</div>
+		<div class="col-lg-4 col-sm-4 text-center">
+			
+		</div>
+	</div>
+</section>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Learn{% endblock %}
+{% block content %}
+<p align="left">
+<br>
+In ecology, sustainability is how biological systems remain diverse and productive. Long-lived and healthy wetlands and forests are examples of sustainable biological systems. In more general terms, sustainability is the endurance of systems and processes. The organizing principle for sustainability is sustainable development, which includes the four interconnected domains: ecology, economics, politics and culture. Sustainability science is the study of sustainable development and environmental science.
+<br><br>
+Healthy ecosystems and environments are necessary to the survival of humans and other organisms. Ways of reducing negative human impact are environmentally-friendly chemical engineering, environmental resources management and environmental protection. Information is gained from green chemistry, earth science, environmental science and conservation biology. Ecological economics studies the fields of academic research that aim to address human economies and natural ecosystems.
+<br><br>
+
+Moving towards sustainability is also a social challenge that entails international and national law, urban planning and transport, local and individual lifestyles and ethical consumerism. Ways of living more sustainably can take many forms from reorganising living conditions (e.g., ecovillages, eco-municipalities and sustainable cities), reappraising economic sectors (permaculture, green building, sustainable agriculture), or work practices (sustainable architecture), using science to develop new technologies (green technologies, renewable energy and sustainable fission and fusion power), to adjustments in individual lifestyles that conserve natural resources.
+<br><br>
+Despite the increased popularity of the use of the term "sustainability", the possibility that human societies will achieve environmental sustainability has been, and continues to be, questioned—in light of environmental degradation, climate change, overconsumption, population growth and societies' pursuit of indefinite economic growth in a closed system.
+
+</p>
+{% endblock %}

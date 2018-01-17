@@ -1,0 +1,53 @@
+{% extends "base1.html" %}
+{% block title %}Blog{% endblock %}
+{% block content %}
+<style>
+	#contact{
+		background-color: #005A31;
+	}
+	hr{
+		border-color: #222;
+		opacity: 200;
+	}
+	a,
+	h2,
+	p{
+		color: rgba(250,250,250,.9);
+	}
+</style>
+
+
+
+<section class="" id="blog">
+	<h4 class="text-center">
+                Integrated Symbiotics was founded in 2015. Check out our blog coming soon!
+	</h4>
+</section>
+
+
+
+
+ <section class="bg-dark text-center" id="interns">
+        <div class="container">
+          <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Internships</h2>
+                    <hr class="primary">
+                    <p> Students, check out our new internships for Fall 2015</p>
+                </div>
+		</div>
+		<div class="row">
+                <div class="col-lg-4 col-sm-4 text-center">
+                   	<a href="/static/PythonCoderFallUNDERGRAD.pdf">Front End/UI Development Intern</a>
+                </div>
+                <div class="col-lg-4 col-sm-4 text-center">
+                    	<a href="/static/BizDevFallUNDERGRAD.pdf">Business Development Intern</a>
+                </div>
+                <div class="col-lg-4 col-sm-4 text-center">
+                    	<a href="/static/SalesMarketingFallUNDERGRAD.pdf">Sales and Marketing Intern</a>
+                </div>
+ </div>
+        </div>
+    </section>
+
+{% endblock %}

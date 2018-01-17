@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Contact Information{% endblock %}
+{% block content %}
+<head>
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(40.07857,-75.214997),
+    zoom:17,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</head>
+
+<p align="center">
+
+<center><div id="googleMap" style="width:500px;height:380px;" align="center"></div></center>
+<br><br>
+Integrated Symbiotics is headquartered at:<br>
+3 Norman Lane<br>
+Philadelphia, PA 19118<br>
+
+<br><br>
+
+Inquiries can be made at info@integratedsymbiotics.com
+
+</p>
+{% endblock %}
